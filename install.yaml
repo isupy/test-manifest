@@ -20,7 +20,7 @@ kind: Deployment
 metadata:
   name: api
 spec:
-  revisionHistoryLimit: "3"
+  revisionHistoryLimit: 3
   selector:
     matchLabels:
       app: api
