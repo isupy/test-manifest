@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: europe-west4-docker.pkg.dev/supy-development-400307/test/test-api-test:daad2a0ed
+        image: europe-west4-docker.pkg.dev/supy-development-400307/test/test-api-test:144b7804a
         # env:
         # - name: CS_DB_HOST
         #   value: mysql
